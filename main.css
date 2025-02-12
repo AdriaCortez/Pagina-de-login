@@ -1,0 +1,105 @@
+body {
+  font-family: "Raleway", serif;
+  background: linear-gradient(to bottom, #f8def0, #f0f4c3, #baffb4);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  text-align: left;
+}
+
+.text-content {
+  margin-left: 15%;
+  max-width: 50%;
+}
+
+.text-content-2 {
+  margin-left: 52%;
+  margin-top: 0%;
+  max-width: 50%;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 900;
+  color: black;
+  animation: gradient 3s ease infinite;
+  font-family: "Racing Sans One", serif;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+  animation: gradient 3s ease infinite;
+  font-family: "Racing Sans One", serif;
+  text-align: center;
+  width: 100%;
+  margin-top: 4cm;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.subtitle {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: "Raleway", serif;
+  font-weight: 600px;
+}
+.botoes {
+  margin-top: 20px;
+}
+.botao {
+  padding: 10px 40px;
+  font-family: "Raleway", serif;
+  font-weight: 800;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 25px;
+  border: 3px solid white;
+  border-radius: 25px;
+  background: white;
+  opacity: 50%;
+  color: black;
+  cursor: not-allowed;
+  font-size: 16px;
+  transition: transform 0.3s;
+}
+.botao-registro {
+  padding: 10px 30px;
+  font-family: "Raleway", serif;
+  font-weight: 800;
+  margin-left: 8px;
+  margin-top: auto;
+  border: 3px solid white;
+  border-radius: 25px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s;
+}
+
+.Imagem-1 {
+  max-width: 1500px;
+  height: auto;
+  margin-left: 30%;
+}
