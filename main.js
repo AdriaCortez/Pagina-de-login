@@ -1,3 +1,3 @@
 function goToPage() {
-  location.href = "cadastro.html";
+  location.href = "paginadeerro.html";
 }
