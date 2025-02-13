@@ -11,6 +11,20 @@ body {
   overflow-y: hidden;
 }
 
+body.cadastrar {
+  font-family: "Raleway", serif;
+  background: linear-gradient(to bottom, #f8def0, #f0f4c3, #baffb4);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-direction: column;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -48,8 +62,9 @@ body {
   font-family: "Racing Sans One", serif;
   text-align: center;
   width: 100%;
-  margin-top: 4cm;
-  height: 100%;
+  margin-top: 15px;
+  height: auto;
+  margin-bottom: 1cm;
 }
 
 @keyframes gradient {
@@ -118,7 +133,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .login-caixa {
