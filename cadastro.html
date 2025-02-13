@@ -22,7 +22,7 @@
     </div>
     <div class="container-2">
       <div class="login-caixa">
-        <h2>Login</h2>
+        <h2>Faça seu login</h2>
         <form>
           <div class="form">
             <label for="usuario">Usuário</label>
@@ -30,10 +30,11 @@
               type="text"
               id="usuario"
               name="usuario"
-              placeholder="Email, CNPJ ou Nome da Conta"
+              placeholder="Insira seu usuario (e-mail, CPF ou nome)"
             />
-            <a href="#">Esqueceu o usuário?</a>
+            <a href="paginadeerro.html">Esqueceu o usuário?</a>
           </div>
+
           <div class="senha">
             <label for="senha">Senha</label>
             <input
@@ -42,13 +43,23 @@
               name="senha"
               placeholder="Insira sua senha"
             />
-            <a href="#">Esqueceu a senha?</a>
           </div>
-          <div class="buttons">
-            <button type="button" class="btn-voltar">Voltar</button>
-            <button type="submit" class="btn-entrar">Entrar</button>
+
+          <div class="esqueci">
+            <a href="paginadeerro.html" class="registro">Esqueceu a senha?</a>
+            <a href="paginadeerro.html" class="registro">
+              Não possui conta? Cadastre-se agora!</a
+            >
           </div>
-          <a href="#" class="registro">Não possui conta? Cadastre-se agora!</a>
+          <div class="butao">
+            <a href="main.html" class="voltar">
+              <button type="button" class="btn-voltar">Voltar</button>
+            </a>
+
+            <a href="paginadeerro.html" class="entrar">
+              <button type="submit" class="btn-entrar">Entrar</button>
+            </a>
+          </div>
         </form>
       </div>
     </div>
