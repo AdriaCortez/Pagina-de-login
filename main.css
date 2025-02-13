@@ -53,7 +53,7 @@ body.cadastrar {
 }
 
 .text-content-2 {
-  margin-left: 52%;
+  margin-left: 55%;
   margin-top: 0%;
   max-width: 50%;
 }
@@ -87,7 +87,8 @@ body.cadastrar {
 }
 
 .botoes {
-  margin-top: 20px;
+  margin-top: auto;
+  margin-left: auto;
   display: flex;
   justify-content: space-between;
 }
